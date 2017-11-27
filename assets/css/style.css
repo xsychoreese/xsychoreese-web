@@ -1,4 +1,11 @@
 font-family: 'Share Tech Mono', monospace;
       body {
         background: url("https://qph.ec.quoracdn.net/main-thumb-t-18823-200-sgMezqHFaT0FHUvWwscYW8mfBwJ4irb0.jpeg");
+        background-size: cover;
+        background-position: 50% 50%;
+        -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+        background-size: cover;
+	  image-rendering: -webkit-optimize-contrast;
       }

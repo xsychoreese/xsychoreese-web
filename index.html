@@ -20,6 +20,18 @@
     <br>
     </center><!-- <p style="font-family: 'Share Tech Mono'; color: darkgrey;">Site Background Music:</p></center> -->
     <audio src="assets/music/Im Awake.mp3" type="audio/mpeg" style="display:none;" autoplay="true"></audio>
+    <script type="text/javascript">
+		var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+		var i = 1;
+
+		window.setInterval(function(){
+			document.body.style.backgroundColor = colors[i];
+			i++;
+			if (i === colors.length){
+				i=0;
+			}
+		}, 5000)
     <footer>
       <p>&copy; Xsychoreese 2017. Background music by <a href="https://soundcloud.com/tmc-matt/Im-Awake">TheCodingGuy#6697</a>.</p>
     </footer>
